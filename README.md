@@ -10,13 +10,13 @@ The Application has 2 page - Home page and List Page
 4.  Testing - Using Jest and React Testing Library
 
 ##  Application Design
-1.  For State management use React-Redux
+1.  For State management used React-Redux
 2.  Since the API calls are returning same value every time, for efficiency React Query is used. So caching is handled effectively
 
 ## Install dependencies
 npm install
 
-## Linting
+## Coding Standard
 Using Husky to prevent code commits on Linting/Format errors 
 So install es-lint,prettier as extension from Visual Studio
 
