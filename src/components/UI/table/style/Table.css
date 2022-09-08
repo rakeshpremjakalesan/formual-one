@@ -1,0 +1,86 @@
+table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 1% 2% 0 2%;
+};
+
+table td,
+table th {
+  padding: 5px;
+  vertical-align: middle;
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+table th {
+  text-transform: uppercase;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f4f4f4;
+  
+}
+
+table tr {
+  background-color: #fff;
+  color: #4a4a4a;
+  font-family: TitilliumWebSemiBold;
+  cursor: pointer;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: #808080;
+  font-weight: 100;
+  font-family: TitilliumWebRegular;
+}
+.active {
+  background-color: #e1060024 !important;
+}
+
+.cell-large {
+  font-size: 20px;
+}
+.cell-medium {
+  font-size: 12px;
+}
+.th-scroll-width {
+  width: 10px;
+}
+
+tbody {
+  height: calc(100vh - 240px);
+  table-layout: fixed;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody::-webkit-scrollbar {
+  width: 1em;
+}
+
+tbody::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+tbody::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

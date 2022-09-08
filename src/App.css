@@ -1,0 +1,18 @@
+body {
+  margin: 0 !important;
+  font-family: Roboto;
+  background: #f7f4f1;
+}
+
+@font-face {
+  font-family: TitilliumWebRegular;
+  src: url(./fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+  font-family: TitilliumWebSemiBold;
+  src: url(./fonts/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+  font-family: TitilliumWebBlack;
+  src: url(./fonts/TitilliumWeb-Black.ttf);
+}
