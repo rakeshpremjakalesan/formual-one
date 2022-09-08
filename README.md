@@ -1,13 +1,13 @@
 ## Application Information
-1. General Information  
-    The Application has 2 page - Home page and List Page
-        a.  Home Page   - Contains a tabular view Formula one winners from 2005 to 2021
-        b.  List Page   - Once a row in the Home Page is clicked, application is navigated to List page which shows a tabular view of circuits and winners in a season with season winner highlighted.
-2.  Technology Information
-    a.  Application is not created using npx create-react-app
-    b.  The application is developed using React, Typescript,Redux and React Query
-    c.  Use Webpack as Module Bundler and Babel as transcompiler 
-    d.  Testing - Using Jest and React Testing Library
+The Application has 2 page - Home page and List Page
+1.  Home Page   - Contains a tabular view Formula one winners from 2005 to 2021
+2.  List Page   - Once a row in the Home Page is clicked, application is navigated to List page which shows a tabular view of circuits and winners in a season with season winner highlighted.
+
+## Technology Information
+1.  Application is not created using npx create-react-app
+2.  The application is developed using React, Typescript,Redux and React Query
+3.  Use Webpack as Module Bundler and Babel as transcompiler 
+4.  Testing - Using Jest and React Testing Library
 
 ##  Application Design
 1.  For State management use React-Redux
